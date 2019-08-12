@@ -1,7 +1,7 @@
 exports.up = function(knex, Promise) {
-  return knex.schema.createTable('shoutouts', users => {
-    users.increments();
-    users.string('message').notNullable();
+  return knex.schema.createTable('shoutouts', tbl => {
+    tbl.increments();
+    tbl.string('message').notNullable();
   });
 };
 
