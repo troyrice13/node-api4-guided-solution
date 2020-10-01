@@ -31,7 +31,7 @@ When making changes to the `master` branch, commit the changes and use `git push
 
 ## Configure a "server" Script
 
-The server is not configure to run when typing `yarn server` or `npm run server`. It is also not using `nodemon` to restart on changes. Let's configure both:
+The server is not configured to run when typing `yarn server` or `npm run server`. It is also not using `nodemon` to restart on changes. Let's configure both:
 
 - add `nodemon` as a development time dependency: `yarn add nodemon --dev`.
 - open `package.json` and modify the "test" script to read:
