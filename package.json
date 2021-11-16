@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LambdaSchool/webapi-deployment.git"
+    "url": "git+https://github.com/BloomInstituteOfTechnology/webapi-deployment.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LambdaSchool/webapi-deployment/issues"
+    "url": "https://github.com/BloomInstituteOfTechnology/webapi-deployment/issues"
   },
-  "homepage": "https://github.com/LambdaSchool/webapi-deployment#readme",
+  "homepage": "https://github.com/BloomInstituteOfTechnology/webapi-deployment#readme",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
