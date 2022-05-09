@@ -19,11 +19,11 @@
   },
   "homepage": "https://github.com/BloomInstituteOfTechnology/webapi-deployment#readme",
   "dependencies": {
-    "@vscode/sqlite3": "5.0.7",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
     "helmet": "^5.0.2",
-    "knex": "^1.0.3"
+    "knex": "^2.0.0",
+    "sqlite3": "^5.0.8"
   },
   "devDependencies": {
     "eslint": "^8.10.0",
