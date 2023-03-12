@@ -1,32 +1,15 @@
 {
-  "name": "webapi-deployment",
+  "name": "node-api4-guided-solution",
   "version": "1.0.0",
-  "description": "Guided project fo Web API IV module.",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "server": "nodemon index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BloomInstituteOfTechnology/webapi-deployment.git"
+    "url": "git+https://github.com/BloomInstituteOfTechnology/node-api4-guided-solution.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BloomInstituteOfTechnology/webapi-deployment/issues"
-  },
-  "homepage": "https://github.com/BloomInstituteOfTechnology/webapi-deployment#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
-    "express": "^4.18.2",
-    "helmet": "^6.0.1",
-    "knex": "^2.4.2",
-    "sqlite3": "^5.1.4"
-  },
-  "devDependencies": {
-    "eslint": "^8.35.0",
-    "nodemon": "^2.0.21"
+    "express": "^4.18.2"
   }
 }
