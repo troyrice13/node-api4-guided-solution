@@ -2,7 +2,13 @@ require('dotenv').config();
 const express = require('express');
 const server = express();
 
-server.get('*', (req, res) => {
+server.use(express.json());
+
+server.get('/hello', (req, res) => {
+  res.json('hello, there');
+});
+
+server.use('*', (req, res) => {
   res.json({ message: 'API is UP!' })
 });
 
