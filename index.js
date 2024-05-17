@@ -5,7 +5,7 @@ const server = express();
 server.use(express.json());
 
 server.get('/hello', (req, res) => {
-  res.json('hello, there');
+  res.json(`hello, ${process.env.FRIEND || "my firned"}!`);
 });
 
 server.use('*', (req, res) => {
